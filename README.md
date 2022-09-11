@@ -3,7 +3,7 @@
 A sample app to encrypt/decrypt data before storing into database using AWS kms. 
 AWS KMS uses [envelop encryption](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#enveloping).
 
-![](aws-diag-1.png)
+![](diagram.png)
 ## Step 1 : Generating  KMS keys
 
 Generate data key using below command. Refer [AWS documentation](https://docs.aws.amazon.com/cli/latest/reference/kms/generate-data-key.html) for more details.
